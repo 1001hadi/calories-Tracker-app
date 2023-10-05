@@ -302,24 +302,3 @@ class App {
 }
 
 const app = new App();
-
-// _newWorkout(e) {
-//   e.preventDefault();
-//   const name = document.getElementById("workout-name");
-//   const calories = document.getElementById("workout-calories");
-
-//   if (name.value === "" || calories.value === "") {
-//     alert("Please Add Workou and the Burned Calories");
-//     return;
-//   }
-
-//   const workout = new Workout(name.value, +calories.value);
-//   this._tracker.addWorkout(workout);
-//   name.value = "";
-//   calories.value = "";
-
-//   const collapseWorkoutForm = document.getElementById("collapse-workout");
-//   const bsCollape = new bootstrap.Collapse(collapseWorkoutForm, {
-//     toggle: true,
-//   });
-// }
